@@ -4,19 +4,20 @@
   rel="stylesheet"
 />
 <div class="sheet-grid">
-  <div class="head-element section">
-    <span class="logo-img lang-ru"></span>
+  <div class="head-element section" data-i18n-title="logo-see-you-in-hell">
+    <span class="sheet-logo-image sheet-lang-ru sheet-lang-en"></span>
   </div>
 
   <div class="hero-info section">
     <div class="inline-info">
-      <label class="input-label" name="attr_charname" data-i18n="name-label">
+      <label class="input-label" data-i18n="name-label">
         Name
       </label>
       <div class="input-wrapper">
         <input
+          name="attr_charname"
           class="input-name"
-          placeholder="Name of your character"
+          data-i18n-placeholder="character-name-placeholder"
           spellcheck="false"
           type="text"
         />
@@ -25,13 +26,14 @@
     </div>
 
     <div class="inline-info">
-      <label class="input-label" name="attr_concept" data-i18n="concept-label">
+      <label class="input-label" data-i18n="concept-label">
         Concept
       </label>
       <div class="input-wrapper">
         <input
+          name="attr_concept"
           class="input-name"
-          placeholder="Concept of your character"
+          data-i18n-placeholder="character-concept-placeholder"
           spellcheck="false"
           type="text"
         />
@@ -42,15 +44,15 @@
     <div class="inline-info">
       <label
         class="input-label"
-        name="attr_memorable_item"
         data-i18n="memorable-item-label"
       >
         Memorable Item
       </label>
       <div class="input-wrapper">
         <input
+          name="attr_memorable_item"
           class="input-name"
-          placeholder="Your Memorable Item"
+          data-i18n-placeholder="memorable-item-placeholder"
           spellcheck="false"
           type="text"
         />
@@ -215,7 +217,7 @@
       Elements
     </div>
     <div class="inline-elements-container">
-      <textarea name="attr_heroelements" class="elements-textarea" spellcheck="false"></textarea>
+      <textarea rows="7" name="attr_heroelements" data-i18n-placeholder="elements-placeholder" class="elements-textarea" spellcheck="false"></textarea>
     </div>
     
   </div>

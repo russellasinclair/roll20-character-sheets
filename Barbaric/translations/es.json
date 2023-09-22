@@ -28,10 +28,17 @@
     "experienced": "Experimentado",
     "expert": "Experto",
     "master": "Maestro",
-    "grandmster": "Gran Maestro",
+    "grandmaster": "grandmaster",
     "legend": "Leyenda",
     "critical-fumble": "Pifia Crítica",
     "critical-success": "Éxito Crítico ",
     "roll-i18n": "Tirada",
-    "player": "Jugador"
+    "player": "Jugador",
+    "human": "Humanos",
+    "anunaki": "Anunaki",
+    "apefolk": "Apefolk",
+    "dwarf": "Enano",
+    "elf": "Elfo",
+    "geckofolk": "Geckofolk",
+    "lizardfolk": "Lizardfolk"
 }

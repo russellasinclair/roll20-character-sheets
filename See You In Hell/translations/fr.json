@@ -1,6 +1,6 @@
 {
-    "name-label": "Name",
-    "concept-label": "Concept",
+    "name-label": "Nom",
+    "concept-label": "Lieu de naissance",
     "memorable-item-label": "\n        Memorable Item\n      ",
     "wounds-label": "\n        Wounds\n      ",
     "rage-label": "\n        Rage\n      ",
@@ -13,5 +13,10 @@
     "tough-button": "\n        Tough\n      ",
     "swift-button": "\n        Swift\n      ",
     "elements-label": "\n      Elements\n    ",
-    "create-element-button": "\n        Create\n      "
+    "create-element-button": "\n        Create\n      ",
+    "character-name-placeholder": "Your character name",
+    "character-concept-placeholder": "Your character concept",
+    "memorable-item-placeholder": "Your memorable item",
+    "elements-placeholder": "Your Elements",
+    "logo-see-you-in-hell": "Logo See You In Hell"
 }
